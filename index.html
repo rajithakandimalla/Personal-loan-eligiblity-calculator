@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>loan eligiblity calculator</title>
+</head>
+
+<body>
+
+<form>
+	<p>Please Enter Your Age</p>
+	<input type="number" name="01age" id="usr_age">
+	<p>Please Enter Your Gross income</p><input type="number" name="gi" id="gross_in">
+	<p>Please Enter your EXISTING OBLIGATION</p><input type="number" name="exemi" id="ex_emi">
+  <p>Please Enter Rate of Interest</p><input type="number" name="curroi" id="cur_roi">
+	<br>
+	<!-- <button type="submit" onclick="grun(); return false;">Submit</button> -->
+  <input type="submit" onclick="loanAmout(); return false;" value="Submit">
+	<!--<input type="submit" name="sub" value="submit"
+      onclick="grun(); return false;">-->
+</form>
+
+<div id="tabletoshow"></div>
+<script type="text/javascript" src="finance.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
